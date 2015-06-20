@@ -1,0 +1,270 @@
+@CHARSET "ISO-8859-1";
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font: 14px/1.4 Georgia, Serif; 
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+.lightorange {
+    color: orange;
+}
+
+#page-wrap {
+	margin: 3px;
+}
+
+p {
+	margin: 3px 0; 
+}
+
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+}
+
+/*  table tr:nth-of-type(odd) table#noLabel tr:nth-of-type(even) { 
+	 background: white; 
+}  */
+
+/* Zebra striping */
+ table.zebra tr:nth-of-type(even) { 
+	/* background: linear-gradient(to bottom,#FFF3C3 0%,#FFEEA9 50%,#FFE990 51%,#FFF3C3 100%); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEEA9', endColorstr='#FFE990',GradientType=0 )"; */
+	background-color :#D6D6E9;
+}
+
+
+  table.zebra tr:nth-of-type(even):hover{ 
+	/* background: linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3d4db', endColorstr='#a5ccd4',GradientType=0 )"; */
+	background-color :#c0ff81;
+} 
+
+th { 
+	/* background: linear-gradient(to bottom,#CC5100 0%,#B34700 50%,#993D00 51%,#CC5100 100%); */ 
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#CC5100', endColorstr='#993D00',GradientType=0 )"; */
+	color:black; 
+	background-color :#E7B074 ; 
+	font-weight: bold; 
+}
+td, th { 
+	padding: 6px; 
+	border: 1px solid rgb(128, 111, 111); 
+	text-align: left; 
+	height: 15px
+}
+
+.noborder td {
+	border:0;
+}
+
+.rightAlign{
+	text-align:right;
+}
+
+.centerAlign{
+	text-align:center;
+}
+
+tr td select {
+      width: 120px;
+}
+
+/* @media only screen and (max-width: 520px) {
+	table#overAlltable th#LReadTm, table#overAlltable tr td:nth-child(3)	{ display:none; visibility:hidden; }
+	table#overAlltable th#LSuccTm, table#overAlltable tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#overAlltable th#LPubTm, table#overAlltable tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 1000px) {
+	li#username { display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 520px) {
+	table#serviceCenterStatus th#LReadTm, table#serviceCenterStatus tr td:nth-child(3)	{ display:none; visibility:hidden; }
+	table#serviceCenterStatus th#LSuccTm, table#serviceCenterStatus tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#serviceCenterStatus th#LPubTm, table#serviceCenterStatus tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+@media only screen and (max-width: 520px) {
+	table#userAudit th#usrName, table#userAudit tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#userAudit th#strtTm, table#userAudit tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#userAudit th#finishTm, table#userAudit tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+************ Scheduling ******************
+
+@media only screen and (max-width: 520px) {
+	table#activeSchedules th#scheduleID4, table#activeSchedules tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#activeSchedules th#serviceCenter4, table#activeSchedules tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+
+
+@media only screen and (max-width: 520px) {
+	table#hidethis th#scheduleid1, table#hidethis tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#hidethis th#serviceCenter1, table#hidethis tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+@media only screen and (max-width: 520px) {
+	table#userAudit th#usrName, table#userAudit tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#userAudit th#strtTm, table#userAudit tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#userAudit th#finishTm, table#userAudit tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 520px) {
+	table#summary th#logTm, table#summary tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 520px) {
+	table#detailed th#detailLogTm, table#detailed tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 520px) {
+	table#detailed th#detailLogTm, table#detailed tr td:nth-child(2)	{ display:none; visibility:hidden; }
+} */
+
+@media only screen and (max-width: 1000px) {
+	table#overAlltable th#LReadTm, table#overAlltable tr td:nth-child(3)	{ display:none; visibility:hidden; }
+	table#overAlltable th#LSuccTm, table#overAlltable tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#overAlltable th#LPubTm, table#overAlltable tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 1000px) {
+	li#username { display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 1000px) {
+	table#serviceCenterStatus th#LReadTm, table#serviceCenterStatus tr td:nth-child(3)	{ display:none; visibility:hidden; }
+	table#serviceCenterStatus th#LSuccTm, table#serviceCenterStatus tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#serviceCenterStatus th#LPubTm, table#serviceCenterStatus tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+@media only screen and (max-width: 1000px) {
+	table#userAudit th#usrName, table#userAudit tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#userAudit th#strtTm, table#userAudit tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#userAudit th#finishTm, table#userAudit tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+/************* Scheduling *******************/
+
+@media only screen and (max-width: 1000px) {
+	table#activeSchedules th#scheduleID4, table#activeSchedules tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#activeSchedules th#serviceCenter4, table#activeSchedules tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	table#hidethis th#scheduleid1, table#hidethis tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#hidethis th#serviceCenter1, table#hidethis tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+@media only screen and (max-width: 1000px) {
+	table#userAudit th#usrName, table#userAudit tr td:nth-child(1)	{ display:none; visibility:hidden; }
+	table#userAudit th#strtTm, table#userAudit tr td:nth-child(4)	{ display:none; visibility:hidden; }
+	table#userAudit th#finishTm, table#userAudit tr td:nth-child(5)		{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 1000px) {
+	table#detailed th#detailLogTm, table#detailed tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+@media only screen and (max-width: 1000px) {
+	table#detailed th#detailLogTm, table#detailed tr td:nth-child(2)	{ display:none; visibility:hidden; }
+}
+
+.customButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom,#CC5100 0%,#B34700 50%,#993D00 51%,#CC5100 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#B34700', endColorstr='#993D00',GradientType=0 )";
+	background-color:#f24537;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.customButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3d4db', endColorstr='#a5ccd4',GradientType=0)";
+	background-color:#c62d1f;
+}
+.customButton:active {
+	position:relative;
+	top:1px;
+}
+
+ 
+
+.custom:hover{
+	background:-webkit-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	background:-moz-linear-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	background:-webkit-linear-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	background:-o-linear-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	background:-ms-linear-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	background:linear-gradient(to bottom,#D9AC73 0%,#D3A05F 50%,#CE954B 51%,#D9AC73 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9AC73', endColorstr='#D3A05F',GradientType=0)";
+	background-color:#D9AC73;
+	font-weight: bolder;
+	color :red;
+}
+
+.customtable:hover{
+/* 	background:-webkit-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	background:-moz-linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	background:-webkit-linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	background:-o-linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	background:-ms-linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	background: linear-gradient(to bottom,#d8d8d8 0%,#cccccc 50%,#bfbfbf 51%,#d8d8d8 100%); 
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3d4db', endColorstr='#a5ccd4',GradientType=0)"; */
+	background-color:#c0ff81;
+	font-weight: bolder;
+
+}
+
+@media only screen and (max-width: 1000px) {
+	table.customtable:hover { background-color:#c0ff81;font-weight: bolder; }
+}
+
+.jmsImage {
+	background-image: url('./static/img/adp.gif');
+	background-position:0px;
+	background-repeat: no-repeat;
+	background-size:90px;
+}
+
+.optionsHover:hover{
+	background-color: :#c0ff81;
+}
